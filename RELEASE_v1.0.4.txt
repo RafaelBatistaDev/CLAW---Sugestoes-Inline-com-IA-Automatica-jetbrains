@@ -1,0 +1,287 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                      CLAW v1.0.4 RELEASE MANIFEST                              ║
+║            Sugestões Inline com IA Automática para JetBrains                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📦 RELEASE INFORMATION
+═════════════════════════════════════════════════════════════════════════════════
+
+Version:        1.0.4
+Release Date:   8 de Abril de 2026 (April 8, 2026)
+Build Status:   ✅ BUILD SUCCESSFUL
+Compliance:     ✅ SemVer Compliant
+License:        MIT License
+Author:         Rafael Batista
+
+═════════════════════════════════════════════════════════════════════════════════
+
+🔗 OFFICIAL LINKS
+═════════════════════════════════════════════════════════════════════════════════
+
+GitHub Repository:
+  https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains
+
+Documentation & Legal:
+  License:          https://github.com/.../blob/master/LICENSE
+  Privacy Policy:   https://github.com/.../blob/master/PRIVACY_POLICY.md
+  Copyright Info:   https://github.com/.../blob/master/COPYRIGHT.md
+  Source Code:      https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📦 DISTRIBUTION FILE
+═════════════════════════════════════════════════════════════════════════════════
+
+Plugin ZIP Package:
+  Filename:   claw-jetbrains-rider-plugin-1.0.4.zip
+  Size:       1.6 MB
+  Location:   build/distributions/
+  Format:     ZIP Archive (UNIX v2.0 compatible)
+  Checksum:   See file metadata
+
+Contents:
+  ├── lib/
+  │   ├── instrumented-claw-jetbrains-rider-plugin-1.0.4.jar (62 KB)
+  │   ├── kotlin-stdlib-1.9.21.jar (1.7 MB)
+  │   └── annotations-13.0.jar (17.5 KB)
+  └── [Plugin Configuration Files]
+
+═════════════════════════════════════════════════════════════════════════════════
+
+✨ WHAT'S NEW IN v1.0.4
+═════════════════════════════════════════════════════════════════════════════════
+
+🔗 Added:
+   - Comprehensive GitHub links for License, Privacy Policy, and Copyright
+   - Expanded "Suporte e Links" section in README with legal documentation
+   - Integration of all documentation on official GitHub repository
+   - Complete SemVer versioning
+
+🔧 Changed:
+   - Version updated across all configuration files (1.0.3 → 1.0.4)
+   - Plugin descriptor (plugin.xml) with updated repository URL
+   - Change notes with information about new links
+
+📊 Status:
+   - ✅ BUILD SUCCESSFUL
+   - ✅ Documentation legal fully integrated
+   - ✅ Ready for JetBrains Marketplace submission
+
+═════════════════════════════════════════════════════════════════════════════════
+
+🖥️ SYSTEM REQUIREMENTS
+═════════════════════════════════════════════════════════════════════════════════
+
+Minimum:
+  - IntelliJ IDEA 2023.2+
+  - JetBrains Rider 2023.2+
+  - Java 17+
+  - Kotlin 1.9.21+
+
+Recommended:
+  - IntelliJ IDEA 2024.1+
+  - JetBrains Rider 2026+
+  - Java 17+
+  - Gradle 8.0+
+
+Supported IDEs:
+  ✅ IntelliJ IDEA (Community & Ultimate)
+  ✅ JetBrains Rider (C# & .NET)
+  ✅ JetBrains PyCharm (Python)
+  ✅ JetBrains WebStorm (JavaScript/TypeScript)
+  ✅ JetBrains GoLand (Go)
+  ✅ JetBrains CLion (C/C++)
+  ✅ JetBrains PhpStorm (PHP)
+  ✅ JetBrains RubyMine (Ruby)
+  ✅ JetBrains DataGrip (SQL)
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📥 INSTALLATION
+═════════════════════════════════════════════════════════════════════════════════
+
+Method 1: JetBrains Marketplace (Recommended)
+  1. Open your JetBrains IDE
+  2. Go to Settings → Plugins → Marketplace
+  3. Search for "CLAW"
+  4. Click "Install"
+  5. Restart IDE
+
+Method 2: Manual Installation
+  1. Download claw-jetbrains-rider-plugin-1.0.4.zip
+  2. Open IDE → Settings → Plugins → ⚙️ → "Install Plugin from Disk..."
+  3. Select the ZIP file
+  4. Click "OK"
+  5. Restart IDE
+
+═════════════════════════════════════════════════════════════════════════════════
+
+🔐 SECURITY & PRIVACY
+═════════════════════════════════════════════════════════════════════════════════
+
+Data Collection:
+  ✅ Telemetry disabled by default
+  ✅ API Keys encrypted locally (JetBrains IDE storage)
+  ✅ No tracking outside the plugin
+  ✅ No personal data collection
+  ✅ Compliant with GDPR, CCPA, LGPD
+
+API Integration:
+  ✅ Google Gemini, OpenAI, Claude, Local Models (your choice)
+  ✅ YOU control which provider to use
+  ✅ Encrypted credentials storage
+  ✅ No shared API keys with CLAW servers (we have none!)
+
+Full Details:
+  See PRIVACY_POLICY.md and SECURITY.md in the repository
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📋 BUILD INFORMATION
+═════════════════════════════════════════════════════════════════════════════════
+
+Build System:    Gradle 8.0+ with IntelliJ Plugin Gradle Plugin 1.17.1
+Kotlin Version:  1.9.21
+IntelliJ SDK:    2023.2.1 (extends to 2026+)
+Compiler:        kotlinc
+Target:          JDK 17
+
+Build Command:
+  gradle clean build
+
+Build Output:
+  BUILD SUCCESSFUL in 9s
+  13 actionable tasks: 13 executed
+
+Warnings (Non-Critical):
+  ⚠️ Kotlin stdlib conflict warning (expected and safe)
+  ⚠️ Unused parameter warning (no functionalimpact)
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📄 DOCUMENTATION FILES
+═════════════════════════════════════════════════════════════════════════════════
+
+Available in Repository:
+  ✅ README.md              - Full documentation and features
+  ✅ CHANGELOG.md           - Version history and changes
+  ✅ LICENSE                - MIT License text
+  ✅ PRIVACY_POLICY.md      - Data privacy information
+  ✅ SECURITY.md            - Security policy and vulnerability reporting
+  ✅ COPYRIGHT.md           - Copyright and attribution
+  ✅ CONTRIBUTING.md        - Contributor guidelines
+  ✅ NOTICE.txt             - Third-party acknowledgements
+
+═════════════════════════════════════════════════════════════════════════════════
+
+✅ RELEASE CHECKLIST
+═════════════════════════════════════════════════════════════════════════════════
+
+Code & Build:
+  ✅ Version updated to 1.0.4 (SemVer compliant)
+  ✅ Build successful (no errors)
+  ✅ All warnings reviewed (non-critical)
+  ✅ Gradle compilation clean
+  ✅ Plugin ZIP package created
+
+Documentation:
+  ✅ README.md updated with new links
+  ✅ CHANGELOG.md updated with v1.0.4 changes
+  ✅ plugin.xml descriptor updated
+  ✅ All internal links verified
+  ✅ Legal documentation integrated
+
+GitHub Integration:
+  ✅ Commits created and pushed
+  ✅ Repository synchronized
+  ✅ All links point to GitHub master branch
+  ✅ Version tags ready for release
+
+Testing:
+  ✅ Compilation successful
+  ✅ No runtime errors
+  ✅ Plugin structure validated
+  ✅ ZIP archive integrity confirmed
+
+Distribution:
+  ✅ Plugin ZIP created: 1.6 MB
+  ✅ All dependencies included
+  ✅ Ready for marketplace submission
+  ✅ Ready for manual distribution
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📊 VERSION HISTORY
+═════════════════════════════════════════════════════════════════════════════════
+
+v1.0.4  (2026-04-08)   - GitHub links and documentation updates ⭐ CURRENT
+v1.0.3  (2026-04-08)   - Marketplace visual identity integration
+v1.0.2  (2026-04-07)   - Stable release with AI provider support
+v1.0.1  (2026-04-05)   - Initial fixes and documentation
+v1.0.0  (2026-04-01)   - Initial release
+
+═════════════════════════════════════════════════════════════════════════════════
+
+🚀 NEXT STEPS
+═════════════════════════════════════════════════════════════════════════════════
+
+For Distribution:
+  1. ✅ Verify this manifest
+  2. ✅ Test plugin installation (manual or IDE)
+  3. → Submit to JetBrains Marketplace
+  4. → Create GitHub release (v1.0.4 tag)
+  5. → Announce on social media
+
+For Development:
+  1. Fork repository
+  2. Create feature branch
+  3. See CONTRIBUTING.md for guidelines
+  4. Submit pull request
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📞 CONTACT & SUPPORT
+═════════════════════════════════════════════════════════════════════════════════
+
+Author:             Rafael Batista
+Email:              rafaellbatistadev@outlook.com.br
+GitHub:             https://github.com/RafaelBatistaDev
+Repository:         https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains
+
+Support:
+  - GitHub Issues:      For bug reports
+  - Discussions:        For questions and ideas
+  - Email:              For security concerns (see SECURITY.md)
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📜 LICENSE
+═════════════════════════════════════════════════════════════════════════════════
+
+MIT License - Copyright © 2026 Rafael Batista
+
+Permission is granted to use, modify, and distribute this software freely,
+with proper attribution and inclusion of the original license.
+
+For details, see: https://github.com/.../blob/master/LICENSE
+
+═════════════════════════════════════════════════════════════════════════════════
+
+✨ THANK YOU FOR USING CLAW! ✨
+
+This plugin is made with ❤️ for the JetBrains community.
+
+If you find CLAW useful:
+  ⭐ Star the repository
+  💬 Share with colleagues
+  🐛 Report bugs to improve
+  📝 Contribute improvements
+
+═════════════════════════════════════════════════════════════════════════════════
+
+Generated:  8 de Abril de 2026 (April 8, 2026)
+Built On:   Fedora Cosmic 44 BETA
+Build Tool: Gradle 8.0+
+Plugin SDK: IntelliJ Platform 2023.2.1
+
+═════════════════════════════════════════════════════════════════════════════════
