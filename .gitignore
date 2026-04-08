@@ -1,0 +1,17 @@
+.gradle/
+build/
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.DS_Store
+*.class
+*.jar
+*.log
+*.zip
+dist/
+node_modules/
+.vscode/
+*.pyc
+__pycache__/

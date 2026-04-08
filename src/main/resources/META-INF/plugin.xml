@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <version>1.0.3</version>
+  <id>com.clawrafaelia.suggestions</id>
+  <name>CLAW - Sugestoes Inline com IA Automatica</name>
+  <vendor email="rafaellbatistadev@outlook.com.br" url="https://github.com/RafaelBatistaDev/CLAW---Sugest-es-Inline-com-IA">Rafael Batista</vendor>
+  <icon>pluginIcon.png</icon>
+  <description>CLAW - Intelligent inline code suggestions powered by AI with support for Gemini, OpenAI, Claude and Local Models. Real-time suggestions integrated into your JetBrains IDE with support for 10+ programming languages.</description>
+  <change-notes>v1.0.3 - Icon fixes and visual identity integration for JetBrains Marketplace</change-notes>
+  
+  <idea-version since-build="232.10300" until-build="261.*"/>
+  
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Notification Group -->
+    <notificationGroup id="CLAW Notifications" displayType="BALLOON" isLogByDefault="true" />
+    
+    <!-- Completion Provider for inline suggestions -->
+    <completion.contributor language="any" implementationClass="com.clawrafaelia.suggestions.InlineCompletionProvider" order="last" />
+    
+    <!-- Status Bar Widget Factory -->
+    <statusBarWidgetFactory implementation="com.clawrafaelia.ui.ClawStatusBarWidgetFactory" id="ClawStatusBarWidget" />
+    
+    <!-- Project Startup Activity -->
+    <projectActivity implementation="com.clawrafaelia.startup.ClawPluginStartupActivity" />
+    
+    <!-- Project-Level Settings: Sugestões de Código -->
+    <projectConfigurable 
+      parentId="tools" 
+      instance="com.clawrafaelia.settings.ClawSettingsConfigurable" 
+      id="com.clawrafaelia.settings" 
+      displayName="CLAW - Sugestões de Código" 
+      nonDefaultProject="false" />
+    
+    <!-- Application-Level Settings: Configurações Globais -->
+    <applicationConfigurable 
+      parentId="tools" 
+      instance="com.clawrafaelia.settings.ClawApplicationSettings" 
+      id="com.clawrafaelia.app.settings" 
+      displayName="CLAW - Configurações Globais" />
+    
+    <!-- Project Service for managing suggestions -->
+    <projectService serviceImplementation="com.clawrafaelia.suggestions.SuggestionsManager" />
+    
+    <!-- Application Service for persistent settings state -->
+    <applicationService serviceImplementation="com.clawrafaelia.settings.ClawSettingsState" />
+  </extensions>
+  
+  <actions>
+    <action id="clawrafaelia.toggleSuggestions" class="com.clawrafaelia.actions.ToggleSuggestionsAction" text="Ativar/Desativar Sugestões CLAW" description="Ativa ou desativa sugestões inline de código" />
+    
+    <group id="ClawMenu" text="CLAW" popup="true">
+      <add-to-group group-id="ToolsMenu" anchor="last" />
+      <reference ref="clawrafaelia.toggleSuggestions" />
+      <separator />
+      <action id="clawrafaelia.openSettings" class="com.clawrafaelia.settings.OpenSettingsAction" text="Configurações CLAW" />
+    </group>
+  </actions>
+</idea-plugin>
