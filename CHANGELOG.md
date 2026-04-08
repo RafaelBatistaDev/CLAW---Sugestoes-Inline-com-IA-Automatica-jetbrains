@@ -7,6 +7,26 @@ e este projeto segue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.0.4] - 2026-04-08 (Atualização de Links)
+
+### ✨ Adicionado
+- 🔗 Links oficiais do GitHub para License, Privacy Policy e Copyright
+- 📚 Seção expandida "Suporte e Links" no README
+- 🔐 Integração de documentação legal completa
+
+### 🔧 Alterado
+- 🔄 Atualização de versão em todos os arquivos (1.0.3 → 1.0.4)
+- 🌐 URL do repositório GitHub atualizada em plugin.xml
+- 📝 Change notes com informações sobre novos links
+
+### 📊 Status
+- ✅ BUILD SUCCESSFUL
+- ✅ Documentação legal 100% integrada
+- ✅ SemVer compliant
+- ✅ Pronto para JetBrains Marketplace
+
+---
+
 ## [1.0.3] - 2026-04-08
 
 ### ✨ Adicionado

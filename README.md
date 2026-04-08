@@ -1,6 +1,6 @@
 # 🦅 CLAW - Sugestões Inline com IA Automática para JetBrains
 
-![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.4-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![JetBrains Plugin](https://img.shields.io/badge/Jetbrains-Plugin-orange.svg)
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.21-blue.svg)
@@ -354,10 +354,19 @@ Desenvolvedor Full-Stack | Plugin Creator | IA Enthusiast
 
 ## 📞 Suporte e Links
 
+### Documentação e Comunidade
+
 - 📘 **Documentação**: [Wiki do Projeto](https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains/wiki)
 - 💬 **Discussões**: [GitHub Discussions](https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains/discussions)
 - 🐛 **Reportar Bug**: [Issues](https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains/issues)
 - 🌟 **Deixar uma Star**: [Repository](https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains)
+
+### Legal & Informações
+
+- 📄 **License**: [MIT License](https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains/blob/master/LICENSE)
+- 🔐 **Privacy Policy**: [Política de Privacidade](https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains/blob/master/PRIVACY_POLICY.md)
+- 📜 **Copyright**: [Direitos Autorais](https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains/blob/master/COPYRIGHT.md)
+- 💻 **Source Code**: [GitHub Repository](https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains)
 
 ---
 
