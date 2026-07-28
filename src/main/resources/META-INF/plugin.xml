@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <version>1.0.5</version>
+  <id>com.clawrafaelia.suggestions</id>
+  <name>CLAW - Sugestões Inline com IA Automática</name>
+  <vendor email="rafaellbatistadev@outlook.com.br" url="https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains">Rafael Batista</vendor>
+  <icon>pluginIcon.svg</icon>
+  <description><![CDATA[
+    <h1>CLAW - Sugestões Inteligentes com IA</h1>
+    <p>Plugin de sugestões inline de código com suporte a múltiplos provedores de IA:</p>
+    <ul>
+      <li><strong>Google Gemini</strong> - Integração com Gemini API</li>
+      <li><strong>OpenAI</strong> - Suporte para GPT-4 e modelos compatíveis</li>
+      <li><strong>Anthropic Claude</strong> - Integração com Claude API</li>
+      <li><strong>Modelos Locais</strong> - Suporte para Ollama e endpoints customizados</li>
+    </ul>
+    <br/>
+    <p>Compatível com mais de 10 linguagens de programação. Sugestões em tempo real diretamente no seu IDE JetBrains.</p>
+  ]]></description>
+  <change-notes><![CDATA[
+    <h2>v1.0.5 - Melhorias profissionais</h2>
+    <ul>
+      <li>Campo de API Key agora como password field (mais segurança)</li>
+      <li>Seletor de provedor IA como dropdown</li>
+      <li>Sistema de logging profissional com Logger do IntelliJ Platform</li>
+      <li>Validação de campos numéricos nas configurações</li>
+      <li>UI das configurações agrupada e mais intuitiva</li>
+      <li>Cache de configurações otimizado</li>
+      <li>Ícone SVG corrigido</li>
+    </ul>
+    <hr/>
+    <h2>v1.0.4</h2>
+    Added comprehensive links and documentation. License, Privacy Policy, Copyright, and Source Code links updated on GitHub
+  ]]></change-notes>
+  
+  <idea-version since-build="232.10300" until-build="261.*"/>
+  
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Notification Group -->
+    <notificationGroup id="CLAW Notifications" displayType="BALLOON" isLogByDefault="true" />
+    
+    <!-- Completion Provider for inline suggestions -->
+    <completion.contributor language="any" implementationClass="com.clawrafaelia.suggestions.InlineCompletionProvider" order="last" />
+    
+    <!-- Status Bar Widget Factory -->
+    <statusBarWidgetFactory implementation="com.clawrafaelia.ui.ClawStatusBarWidgetFactory" id="ClawStatusBarWidget" />
+    
+    <!-- Project Startup Activity -->
+    <projectActivity implementation="com.clawrafaelia.startup.ClawPluginStartupActivity" />
+    
+    <!-- Project-Level Settings: Sugestões de Código -->
+    <projectConfigurable 
+      parentId="tools" 
+      instance="com.clawrafaelia.settings.ClawSettingsConfigurable" 
+      id="com.clawrafaelia.settings" 
+      displayName="CLAW - Sugestões de Código" 
+      nonDefaultProject="false" />
+    
+    <!-- Application-Level Settings: Configurações Globais -->
+    <applicationConfigurable 
+      parentId="tools" 
+      instance="com.clawrafaelia.settings.ClawApplicationSettings" 
+      id="com.clawrafaelia.app.settings" 
+      displayName="CLAW - Configurações Globais" />
+    
+    <!-- Project Service for managing suggestions -->
+    <projectService serviceImplementation="com.clawrafaelia.suggestions.SuggestionsManager" />
+    
+    <!-- Application Service for persistent settings state -->
+    <applicationService serviceImplementation="com.clawrafaelia.settings.ClawSettingsState" />
+  </extensions>
+  
+  <actions>
+    <action id="clawrafaelia.toggleSuggestions" class="com.clawrafaelia.actions.ToggleSuggestionsAction" text="Ativar/Desativar Sugestões CLAW" description="Ativa ou desativa sugestões inline de código" />
+    
+    <group id="ClawMenu" text="CLAW" popup="true">
+      <add-to-group group-id="ToolsMenu" anchor="last" />
+      <reference ref="clawrafaelia.toggleSuggestions" />
+      <separator />
+      <action id="clawrafaelia.openSettings" class="com.clawrafaelia.settings.OpenSettingsAction" text="Configurações CLAW" />
+    </group>
+  </actions>
+</idea-plugin>

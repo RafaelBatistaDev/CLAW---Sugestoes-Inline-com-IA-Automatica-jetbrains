@@ -1,0 +1,184 @@
+NOTICE
+======
+
+CLAW - Sugestões Inline com IA Automática para JetBrains
+
+Copyright © 2026 Rafael Batista
+All rights reserved.
+
+Licensed under the MIT License (see LICENSE file)
+
+================================================================================
+
+THIRD-PARTY COMPONENTS AND LICENSES
+====================================
+
+This product includes software developed by:
+
+1. JetBrains IntelliJ Platform SDK
+   ├─ Copyright: JetBrains s.r.o.
+   ├─ License: JetBrains Proprietary / Community License
+   ├─ URL: https://plugins.jetbrains.com/docs/intellij/
+   └─ Version: 2023.2.1
+
+2. Kotlin Standard Library
+   ├─ Copyright: JetBrains s.r.o. and Kotlin contributors
+   ├─ License: Apache License 2.0
+   ├─ URL: https://github.com/JetBrains/kotlin
+   └─ Version: 1.9.21
+
+3. Gradle Build System
+   ├─ Copyright: Gradle Inc.
+   ├─ License: Apache License 2.0
+   ├─ URL: https://gradle.org/
+   └─ Used for: Build automation
+
+================================================================================
+
+EXTERNAL SERVICES (Optional - User Choice)
+===========================================
+
+When using CLAW, you may optionally connect to third-party AI services:
+
+1. Google Gemini API
+   ├─ Provider: Google LLC
+   ├─ Terms: https://ai.google.dev/terms
+   ├─ Privacy: https://policies.google.com/privacy
+   └─ Data: Sent to Google for processing (your choice)
+
+2. OpenAI API
+   ├─ Provider: OpenAI, Inc.
+   ├─ Terms: https://openai.com/policies/terms-of-use
+   ├─ Privacy: https://openai.com/privacy
+   └─ Data: Sent to OpenAI for processing (your choice)
+
+3. Anthropic Claude API
+   ├─ Provider: Anthropic PBC
+   ├─ Terms: https://www.anthropic.com/terms
+   ├─ Privacy: https://www.anthropic.com/privacy
+   └─ Data: Sent to Anthropic for processing (your choice)
+
+4. Ollama (Local Models)
+   ├─ Type: Open Source
+   ├─ License: MIT License
+   ├─ URL: https://ollama.ai/
+   └─ Data: 100% Local (no transmission)
+
+================================================================================
+
+LOGO AND BRANDING
+=================
+
+CLAW logo, icons, and visual branding are Copyright © 2026 Rafael Batista.
+
+For commercial use of CLAW branding, please contact:
+Rafael Batista <rafaellbatistadev@outlook.com.br>
+
+================================================================================
+
+DOCUMENTATION
+==============
+
+All documentation, including README.md, CONTRIBUTING.md, SECURITY.md,
+PRIVACY_POLICY.md, COPYRIGHT.md, and CHANGELOG.md are Copyright © 2026 Rafael Batista.
+
+These files are included in the MIT License.
+
+================================================================================
+
+MIT LICENSE SUMMARY
+===================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+Full license text is available in the LICENSE file.
+
+================================================================================
+
+ATTRIBUTION
+===========
+
+When using CLAW in your project, please provide attribution as follows:
+
+For Source Code:
+  This project includes CLAW
+  Copyright © 2026 Rafael Batista
+  Licensed under the MIT License
+  https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains
+
+For Academic Work:
+  @software{batista2026claw,
+    author = {Batista, Rafael},
+    title = {CLAW: Inline Code Suggestions with Automatic AI},
+    year = {2026},
+    url = {https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains}
+  }
+
+For Web/Marketing:
+  CLAW - Inline Code Suggestions with Automatic AI
+  by Rafael Batista
+  https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains
+
+================================================================================
+
+CHANGES TO THIRD-PARTY CODE
+============================
+
+All third-party components have been used without modification, except where
+explicitly noted in the source code with comments.
+
+No third-party licenses have been modified or altered.
+
+================================================================================
+
+COMPATIBILITY NOTES
+===================
+
+This plugin is compatible with the following JetBrains products:
+
+- IntelliJ IDEA 2023.2.1 and later
+- JetBrains Rider 2023.2.1 and later
+- Other JetBrains IDEs based on IntelliJ Platform 232+
+
+Compatibility is achieved through the official JetBrains Plugin SDK.
+
+================================================================================
+
+SECURITY AND PRIVACY
+=====================
+
+For security and privacy notices, please see:
+- SECURITY.md - Security policy and vulnerability disclosure
+- PRIVACY_POLICY.md - Data collection and privacy practices
+
+================================================================================
+
+CONTACT INFORMATION
+===================
+
+For questions regarding copyright, licensing, or third-party components:
+
+Rafael Batista
+Email: rafaellbatistadev@outlook.com.br
+GitHub: https://github.com/RafaelBatistaDev
+
+For JetBrains-related questions:
+https://plugins.jetbrains.com/docs/intellij/
+
+================================================================================
+
+LAST UPDATED
+============
+
+Date: 8 de Abril de 2026
+Version: 1.0.3
+
+This NOTICE file should be distributed with all copies of CLAW software.
