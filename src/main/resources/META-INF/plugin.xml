@@ -2,10 +2,11 @@
 <idea-plugin>
   <version>1.0.5</version>
   <id>com.clawrafaelia.suggestions</id>
-  <name>CLAW - Sugestões Inline com IA Automática</name>
+  <name>CLAW - Sugestoes Inline com IA Automatica</name>
   <vendor email="rafaellbatistadev@outlook.com.br" url="https://github.com/RafaelBatistaDev/CLAW---Sugestoes-Inline-com-IA-Automatica-jetbrains">Rafael Batista</vendor>
   <icon>pluginIcon.svg</icon>
   <description><![CDATA[
+    CLAW is an AI-powered inline code suggestion plugin supporting Google Gemini, OpenAI, Anthropic Claude, and local models like Ollama.
     <h1>CLAW - Sugestões Inteligentes com IA</h1>
     <p>Plugin de sugestões inline de código com suporte a múltiplos provedores de IA:</p>
     <ul>
